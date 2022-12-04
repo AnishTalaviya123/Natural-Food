@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Project</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link
+            href='https://fonts.googleapis.com/css?family=Merriweather'rel='stylesheet'>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+        
+        <style>
+            .cl{
+                background-image: url('image/img_one.jpg');
+                height: 100vh;
+                width: 100%;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                display: flex;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="cl cl1">
+            <nav>
+                <form action="https://www.google.com/search" method="get" class="search-bar" target="_blank">
+                    <input type="text" name="q" placeholder=" search here">
+                    <button type="submit">
+                        <img src="image/search.png">
+                    </button>
+                </form>
+                <div class="nav-hover">
+                    <ul class="side-nav">
+                        <a href="#" onclick="refresh()">
+                            <li class="nav-item">
+                                Home
+                            </li>
+                        </a>
+
+                        <a href="about.html" target="_blank">
+                            <li class="nav-item">
+                                About
+                            </li>
+                        </a>
+
+                        <a href="contact.html" target="_blank">
+                            <li class="nav-item">
+                                Contact
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+            </nav>
+            <div class="natural-text">
+                <div class="natural-head">
+                    <h1>Natural Food</h1>
+                </div>
+                <div class="paragraph">
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                </div>
+            </div>
+            <div class="calltoaction">
+                <button class="read-btn"><a href="#more">READ MORE</a></button>
+                <button class="recipes-btn"><a href="#price">VIEW ALL RECIPES</a></button>
+            </div>
+
+        </div>
+
+        <span>
+            <a name="price">
+        <div class="for-food">
+            <div class="food-Container">
+                <div class="food-img-1">
+                    <img src="image/3.png" alt="web browser can't load the image....">
+                    <h3 class="salad-text">
+                        Caesar Salad
+                    </h3>
+                    <h1 class="price-1">$20</h1>
+                    <p class="Caesar-Salad-para">
+                        Sample text. Click to select the text<br> box. Click
+                        again or double click to<br> start editing the text.
+                    </p>
+                </div>
+
+                <div class="food-img-2">
+                    <img src="image/4.png" alt="web browser can't load the image...."">
+                    <h3 class="greek-salad">
+                        Greek Salad
+                    </h3>
+                    <h1 class="price-2">$45</h1>
+                    <p class="greek-para">
+                        Sample text. Click to select the text<br> box. Click
+                        again or double click to<br> start editing the text.
+                    </p>
+                </div>
+
+                <div class="food-img-3">
+                    <img src="image/1.png" alt="web browser can't load the image....">
+                    <h1 class="mexican-salad">
+                        Mexican Salad
+                    </h1>
+                    <h1 class="price-3">
+                        $13
+                    </h1>
+                    <p class="mexican-para">
+                        Sample text. Click to select the text<br> box. Click
+                        again or double click to<br> start editing the text.
+                    </p>
+                </div>
+
+                <div class="food-img-4">
+                    <img src="image/2.png" alt="web browser can't load the image....">
+                    <h1 class="classic-ricotta">
+                        classic Ricotta
+                    </h1>
+                    <h1 class="price-4">
+                        $24
+                    </h1>
+                    <p class="Classic-Ricotta-para">
+                        Sample text. Click to select the text<br> box. Click
+                        again or double click to<br> start editing the text.
+                    </p>
+                </div>
+            </div>
+            <h4 class="plan-text">
+                Our menu
+            </h4>
+        </div>
+    </a>
+    </span> 
+
+        <span>
+            <a name="more">
+        <div class="for-health">
+            <div class="health-text">
+                <h1 class="health-head">
+                    Healthy Evening
+                </h1>
+                <h3 class="health-para">
+                    Duis ultricies lacus sed turpis tincidunt id aliquet risus.
+                    Bibendum est<br>ultricies integer quis auctor. Id eu nisl
+                    nunc mi. Eget nunc scelerisque<br>viverra mauris in aliquam.
+                    Malesuada proin libero nunc consequat<br>interdum.
+                </h3>
+
+                <img src="image/pexels.jpeg" alt="web browser can't load the image....">
+            </div>
+        </div>
+    </a>
+    </span>
+
+        <!-- scroll img start here -->
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="image/scroll-1.jpeg"></div>
+                <div class="swiper-slide"><img src="image/scroll-2.jpeg"></div>
+                <div class="swiper-slide"><img src="image/scroll-3.jpeg"></div>
+                <div class="swiper-slide"><img src="image/scroll-4.jpeg"></div>
+                <div class="swiper-slide"><img src="image/scroll-5.jpeg"></div>
+                <div class="swiper-slide"><img src="image/scroll-6.jpeg"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="footer-container">
+            <div class="follow">
+                <h2>Subscribe And<br>&nbsp;&nbsp;&nbsp;&nbsp;Follow Us</h2>
+                <p class="follow-para">Be part of the story and follow us on Twitter via @name and subscribe to the</p>
+                <p class="follow-para-2">newsletter for news and updates about our workshops</p>
+
+                <!-- E-mail & Subscribe btn -->
+                <div class="email-btn">
+                    <form action="" >
+                        <div class="email-box">
+                            <input class="button1 button11" type="email" id="for-email" name="email" placeholder="E-Mail" required>
+                            <button class="button1 button12" id="sub-btn" onclick="myfun()">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="thank-u">
+                    <p class="follow-us">Sample text. Click to select the text box. Click again or double<br>click to start editing the text.</p>
+                </div>
+                <!-- scroll to top -->
+                
+                
+            </div>
+        </div>
+        <div class="scroll-top">
+        
+            <a href="#" class="to-top">
+                <i class="fas fa-chevron-up"></i>
+            </a>
+        </div>
+        <!-- for back to up btn -->
+        <script src="https://kit.fontawesome.com/89ef595c4a.js" crossorigin="anonymous"></script>
+
+        <script src="main.js"></script>
+        
+        <!-- this script is for scrolling images -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        <script>    
+      var swiper = new Swiper(".mySwiper", {
+        centeredSlides: true,
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    </body>
+</html>

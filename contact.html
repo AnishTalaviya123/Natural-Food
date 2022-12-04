@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }          
+        .for-contacts img{
+            width: 100%;
+            height: 65vh;
+        }
+        
+        .contacts-container{
+            width: 80%;
+            margin: 50px auto;
+        }
+        
+        .contacts-box{
+            display: flex;
+            font-size: 15px;
+            font-family:cursive
+        }
+        
+        .contacts-left{
+            flex-basis: 60%;
+            padding: 40px 60px; 
+        }
+        .contacts-right{
+            flex-basis: 40%;
+            padding: 40px;
+            background-color: #f6b197;
+        }
+        
+        .input-row{
+            justify-content:space-between;
+            display: flex;
+            margin-bottom: 20px;
+        }
+        
+        .input-row .input-group{
+            flex-basis: 45%;
+        }
+        
+        .contacts-left input{
+            width: 100%;
+            border: none;
+            border-bottom: 1px solid #ccc;
+            outline: none;
+            padding-bottom: 5px;
+        }
+        
+        .contacts-left label{
+            margin-bottom: 6px;
+            display: block;
+        }
+        .contacts-left textarea{
+            width: 100%;
+            border: 1px solid #ccc;
+            outline: none;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        
+        .contacts-left button{
+            background: #f6b197;
+            width: 100px;
+            border: none;
+            outline: none;
+            color: black;
+            height: 35px;
+            border-radius: 30px;
+            margin-top: 20px;
+            box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+            cursor: pointer;
+        }
+
+        .contacts-left h3{
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+
+        .contacts-right h3{
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+
+        tr td:first-child{
+            padding-right: 20px;
+        }
+
+        tr td{
+            padding-top: 20px;
+        }
+        
+        .ths{
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="for-contacts">
+        <div class="contacts-img">
+            <img src="image/Banner.jpg" alt="banner image" srcset="">
+        </div>
+    </div>
+    <div class="contacts-container">
+        <div class="contacts-box">
+            <div class="contacts-left">
+                <h3>Details</h3>
+                <form id="for-form">
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label for="">Name</label>
+                            <input type="text" placeholder="Please Enter Your Name">
+                        </div>
+                        <div class="input-group">
+                            <label for="">Phone</label>
+                            <input type="text" placeholder="Please Enter Your Number">
+                        </div>
+                    </div>
+
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label for="">E-Mail</label>
+                            <input type="email" placeholder="Please Enter Your E-mail">
+                        </div>
+                        <div class="input-group">
+                            <label for="">Subject</label>
+                            <input type="text" placeholder="Enter Your Subject">
+                        </div>
+                    </div>
+                    <label>Message</label>
+                    <textarea rows="5" placeholder="Please Enter Your Message"></textarea>
+                    <button type="button">Submit</button>
+                </form>
+            </div>
+            <div class="contacts-right">
+                <h3>Reach Us</h3>
+
+                <table>
+                    <tr>
+                        <td>E-mail</td>
+                        <td>contactus@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td>+1 123 456 789</td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>Mehrotra Consumer Products Pvt. Ltd.<br>
+                            26G, Sector 31, Ecotech 1,<br>
+                            Greater Noida 201308, India.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr>
+                        
+                        <td></td>
+                        <td colspan="2">Thank You For Contacts Us <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="ths"> &#128513; </span></td>
+                    </tr>
+
+                </table>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
